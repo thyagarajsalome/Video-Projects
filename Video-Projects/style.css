@@ -75,3 +75,52 @@ body {
     grid-template-columns: 1fr;
   }
 }
+
+/* Add this to your existing CSS file */
+
+.tech-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tag {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  font-size: 14px;
+  color: #333;
+}
+
+.tag i {
+  margin-right: 5px;
+}
+
+/* You can add specific colors for each technology if desired */
+.tag:nth-child(1) {
+  background-color: #8bc34a;
+  color: white;
+} /* Three.js */
+.tag:nth-child(2) {
+  background-color: #e44d26;
+  color: white;
+} /* HTML */
+.tag:nth-child(3) {
+  background-color: #264de4;
+  color: white;
+} /* CSS */
+.tag:nth-child(4) {
+  background-color: #f0db4f;
+  color: black;
+} /* JavaScript */
+.tag:nth-child(5) {
+  background-color: #38b2ac;
+  color: white;
+} /* Tailwind */
+.tag:nth-child(6) {
+  background-color: #68a063;
+  color: white;
+} /* Node.js */

@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <title>Video Gallery</title>
+    <!-- Add Font Awesome for icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
   </head>
   <body>
     <div class="menu-icon" onclick="toggleMenu()">☰</div>
@@ -18,38 +23,40 @@
     </nav>
     <div class="container">
       <h1>Project Gallery</h1>
+      <div class="tech-tags">
+        <span class="tag"><i class="fab fa-js"></i> Three.js</span>
+        <span class="tag"><i class="fab fa-html5"></i> HTML</span>
+        <span class="tag"><i class="fab fa-css3-alt"></i> CSS</span>
+        <span class="tag"><i class="fab fa-js"></i> JavaScript</span>
+        <span class="tag"><i class="fab fa-css3"></i> Tailwind</span>
+        <span class="tag"><i class="fab fa-node-js"></i> Node.js</span>
+      </div>
       <div class="gallery">
         <div class="video-item">
           <div class="video-wrapper">
             <video controls>
-              <source src="/api/placeholder/1280/720" type="video/mp4" />
+              <source src="./source/3dshoe.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
+          <h3>3D Shoe Animation</h3>
+          <p>
+            A stunning 3D animation showcasing a rotating shoe model with
+            dynamic lighting and textures.
+          </p>
         </div>
         <div class="video-item">
           <div class="video-wrapper">
             <video controls>
-              <source src="/api/placeholder/1280/720" type="video/mp4" />
+              <source src="./source/planet3d.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
-        </div>
-        <div class="video-item">
-          <div class="video-wrapper">
-            <video controls>
-              <source src="/api/placeholder/1280/720" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        </div>
-        <div class="video-item">
-          <div class="video-wrapper">
-            <video controls>
-              <source src="/api/placeholder/1280/720" type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
+          <h3>3D Planet Exploration</h3>
+          <p>
+            An immersive 3D visualization of a planet, featuring realistic
+            terrain and atmospheric effects.
+          </p>
         </div>
       </div>
     </div>
